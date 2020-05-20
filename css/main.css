@@ -1,0 +1,174 @@
+/****BODY****/
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  color: #624849;
+}
+/****GRID****/
+header {
+  height: 800px;
+  background-image:url(../img/header.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#about {
+  height: 750px;
+}
+#work {
+  height: 850px;
+}
+#contact {
+  height: 650px;
+}
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+.half-width {
+  width: 600px;
+  float: left;
+  overflow: auto;
+}
+.third-width {
+  width: 400px;
+  float: left;
+  overflow: auto;
+}
+/****HEADER****/
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 64px;
+  padding-top: 40px;
+  font-weight: 200;
+}
+header span {
+  color: #e8aa9b
+}
+header h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: 200;
+}
+nav {
+  float: right;
+  padding: 15px 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 35px;
+  font-size: 20px;
+  color: #624849
+}
+/****ABOUT*****/
+#about {
+  padding: 50px 0;
+  background-color: #624849;
+  box-sizing: border-box;
+}
+#about h3 {
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 36px;
+}
+#about p{
+  padding: 0px 30px 0 30px;
+  line-height: 55px;
+}
+#summary {
+  padding-top: 20px;
+  color: white;
+  text-align: justify;
+}
+#about img {
+  width: 500px;
+  height: 650px;
+}
+/****WORK*****/
+#work .full-width {
+  padding: 150px 0;
+}
+#work h3 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  padding-bottom: 45px;
+  font-size: 36px;
+  color: #624849
+}
+#work img {
+  height: 225px;
+  width: 350px;
+  padding-left: 25px;
+}
+#work span {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+#work p {
+  text-align: center;
+  font-size: 14px;
+  padding-right: 50px;
+  color: #624849
+}
+/****CONNECT/FOOTER*****/
+#contact {
+  background-color: #624849;
+  color: white;
+  margin: 0 auto;
+  padding: 30px 20px 25px 0;
+  box-sizing: border-box;
+}
+#contact h3 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  padding-bottom: 35px;
+  font-size: 36px;
+}
+#contact h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+}
+#contact h2, a, p, ul {
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 25px;
+}
+#contact #envelope {
+      text-decoration: none;
+      color: white;
+      font-size: 24px;
+      padding-left: 125px;
+}
+#envelope img {
+  padding-right: 8px;
+}
+#contact ul {
+  list-style: none;
+}
+#contact ul li {
+  display: inline-block;
+}
+#contact ul li a {
+  padding-right: 25px;
+}
+#contact #books {
+  height: 400px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  border: 3px solid white;
+}
+#copyright {
+  padding: 5px 0 0 0;
+  font-size: 10px;
+}
